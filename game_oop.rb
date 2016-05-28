@@ -147,7 +147,7 @@ def game_over()
   elsif @player1.points == 5 or @player2.points == 5
     puts "\nWOMP WOMP. GAME OVER."
     puts "---> #{@player1.name} wins!!!" if @player1.points == 5
-    puts "---> #{@player1.name} wins!!!" if @player2.points == 5
+    puts "---> #{@player2.name} wins!!!" if @player2.points == 5
     puts "\nPLAY AGAIN? (yes/no)"
 
   end
