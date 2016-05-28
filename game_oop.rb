@@ -26,7 +26,8 @@ def run_game
 
   puts "(1) Enter 'play' to play the game. \
   \n    A random player will be chosen to answer the first question. \
-  \n(2) Enter 'quit' to quit at any time."
+  \n(2) Enter 'quit' to quit at any time.
+  \n(3) Round division down."
   
   while @playing do
     user_input = gets.chomp.strip
